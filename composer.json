@@ -1,0 +1,22 @@
+{
+    "name": "office-template-engine-bundle",
+    "description" : "A symfony bundle for kharhamel/office-template-engine",
+    "keywords" : [
+        "office",
+        "template-engine",
+        "bundle",
+        "symfony"
+    ],
+    "type" : "symfony-bundle",
+    "homepage" : "https://github.com/Kharhamel/office-template-engine",
+    "autoload" : {
+        "psr-4" : {
+            "OfficeTemplateEngine\\Bundle\\" : ""
+        }
+    },
+    "require": {
+        "php" : ">=7.2",
+        "symfony/framework-bundle": "^4.1.9 | ^5",
+        "kharhamel/office-template-engine": "^0.1.0"
+    }
+}
