@@ -14,9 +14,15 @@
             "OfficeTemplateEngine\\Bundle\\" : ""
         }
     },
+    "scripts": {
+        "phpstan": "vendor/bin/phpstan analyse --level 7 OfficeTemplateEngineBundle.php DependencyInjection/ Resources/ --no-progress"
+    },
     "require": {
         "php" : ">=7.2",
         "symfony/framework-bundle": "^4.1.9 | ^5",
         "kharhamel/office-template-engine": "^0.1.0"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^0.12.7"
     }
 }
