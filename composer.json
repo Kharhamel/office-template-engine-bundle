@@ -1,14 +1,16 @@
 {
-    "name": "office-template-engine-bundle",
+    "name": "kharhamel/office-template-engine-bundle",
     "description" : "A symfony bundle for kharhamel/office-template-engine",
-    "keywords" : [
-        "office",
-        "template-engine",
-        "bundle",
-        "symfony"
-    ],
+    "keywords" : ["OpenTBS","office","template-engine","bundle","symfony"],
     "type" : "symfony-bundle",
-    "homepage" : "https://github.com/Kharhamel/office-template-engine",
+    "homepage" : "https://github.com/Kharhamel/office-template-engine-bundle",
+    "authors": [
+        {
+            "name": "Arthmaël Poly",
+            "email": "oognic@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "autoload" : {
         "psr-4" : {
             "OfficeTemplateEngine\\Bundle\\" : ""
